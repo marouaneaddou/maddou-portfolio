@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Github, Linkedin, Send } from 'lucide-react';
+import { Mail, Github, Linkedin, Send, Phone } from 'lucide-react';
 import { Link } from "react-router-dom"
 function ContactPage() {
   return (
@@ -96,6 +96,17 @@ function ContactPage() {
                         <div className="font-medium">LinkedIn</div>
                         <div className="text-sm text-white/60">marouane-addou</div>
                       </Link>
+                    </div>
+                  </a>
+                  <a href="#" className="flex items-center gap-3 text-white/80 hover:text-orange-yellow transition-colors">
+                    <div className="w-10 h-10 bg-white/5 border border-white/10 rounded-lg flex items-center justify-center">
+                      <Phone className="w-5 h-5" />
+                    </div>
+                    <div>
+                      {/* <Link target="_blank" rel="stylesheet" to="https://www.linkedin.com/in/marouane-addou-303997202/" > */}
+                        <div className="font-medium">Phone</div>
+                        <div className="text-sm text-white/60">0696782838</div>
+                      {/* </Link> */}
                     </div>
                   </a>
                 </div>
