@@ -221,7 +221,7 @@ const HomePage = () => {
                         </span>
                     </div>
                     <div className="flex mr-5 ml-5 md:justify-end" style={{ gridArea: 'third' }}>
-                            <a href={resume} className="w-30 mr-2 h-10 bg-orange-yellow flex justify-between p-3 border w-26  border-white/10 rounded-md items-center">
+                            <a target="_blank" href={resume} className="w-30 mr-2 h-10 bg-orange-yellow flex justify-between p-3 border w-26  border-white/10 rounded-md items-center">
                                 <Download className="w-4 mr-1"/>
                                 <span>Resume</span>
                             </a>
