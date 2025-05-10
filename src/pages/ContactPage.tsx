@@ -92,9 +92,9 @@ function ContactPage() {
                       <Linkedin className="w-5 h-5" />
                     </div>
                     <div>
-                      <Link target="_blank" rel="stylesheet" to="https://www.linkedin.com/in/marouane-addou-303997202/" >
+                      <Link target="_blank" rel="stylesheet" to="https://www.linkedin.com/in/marouaneaddou/" >
                         <div className="font-medium">LinkedIn</div>
-                        <div className="text-sm text-white/60">marouane-addou</div>
+                        <div className="text-sm text-white/60">marouaneaddou</div>
                       </Link>
                     </div>
                   </a>
