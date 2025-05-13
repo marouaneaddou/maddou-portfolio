@@ -1,7 +1,7 @@
-import React from 'react';
+
 import { Mail, Github, Linkedin, Send, Phone } from 'lucide-react';
 import { Link } from "react-router-dom"
-function ContactPage() {
+const  ContactPage = () =>{
   return (
     <div className="max-w-4xl mx-auto p-4 md:p-8">
       <div className="bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden shadow-2xl border border-white/10">
@@ -68,10 +68,9 @@ function ContactPage() {
                       <Mail className="w-5 h-5" />
                     </div>
                     <div>
-                    {/* <a target="_blank" rel="stylesheet" href="marouaneaddou@hotmail.com" > */}
                       <div className="font-medium">Email</div>
                       <div className="text-sm text-white/60">marouaneaddou@hotmail.com</div>
-                    {/* </a> */}
+                    
                     </div>
                   </a>
 
@@ -103,7 +102,6 @@ function ContactPage() {
                       <Phone className="w-5 h-5" />
                     </div>
                     <div>
-                      {/* <Link target="_blank" rel="stylesheet" to="https://www.linkedin.com/in/marouane-addou-303997202/" > */}
                         <div className="font-medium">Phone</div>
                         <div className="text-sm text-white/60">0696782838</div>
                       {/* </Link> */}
@@ -112,11 +110,7 @@ function ContactPage() {
                 </div>
 
                 <div className="pt-6 border-t border-white/10">
-                  {/* <h3 className="font-medium mb-3">Office Hours</h3>
-                  <div className="text-sm text-white/60">
-                    <p>Monday - Friday</p>
-                    <p>9:00 AM - 6:00 PM PST</p>
-                  </div> */}
+                  
                 </div>
               </div>
             </div>

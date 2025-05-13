@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
-import { Home, FileCode, BookOpen, MessageSquare, User, Code2, Award, Menu, X } from 'lucide-react';
+import { Home, FileCode, BookOpen, MessageSquare, User, Code2, Menu, X, Building2 } from 'lucide-react';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import BlogPage from './pages/BlogPage';
 import ProjectsPage from './pages/ProjectsPage';
-// import CertificatesPage from './pages/CertificatesPage';
+import ExperiencePage from './pages/ExperiencePage';
 import ContactPage from './pages/ContactPage';
 import ParticlesBackground from './components/ParticlesBackground';
 import { NavItem } from './types';
@@ -19,8 +19,8 @@ const Navigation: React.FC = () => {
     { path: '/', icon: Home, label: 'Home' },
     { path: '/about', icon: User, label: 'About' },
     { path: '/blog', icon: BookOpen, label: 'Blog' },
+    { path: '/experience', icon: Building2, label: 'Experience' },
     { path: '/projects', icon: FileCode, label: 'Projects' },
-    // { path: '/certificates', icon: Award, label: 'Certificates' },
     { path: '/contact', icon: MessageSquare, label: 'Contact' },
   ];
 
@@ -139,7 +139,7 @@ const App: React.FC = () => {
               <Route path="/about" element={<AboutPage />} />
               <Route path="/blog" element={<BlogPage />} />
               <Route path="/projects" element={<ProjectsPage />} />
-              {/* <Route path="/certificates" element={<CertificatesPage />} /> */}
+              <Route path="/experience" element={<ExperiencePage />} />
               <Route path="/contact" element={<ContactPage />} />
             </Routes>
           </div>
