@@ -5,7 +5,7 @@
 import { Download , Mail , MapPin , Github, Linkedin,} from "lucide-react"
 import { Link } from "react-router-dom"
 import bg from "../assets/bg.avif"
-import resume from "../assets/Marounae_Addou.pdf"
+import resume from "../assets/Marouane_Addou.pdf"
 import profile from "../assets/profile.png"
 
 const HomePage = () => {

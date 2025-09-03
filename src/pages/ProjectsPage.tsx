@@ -9,11 +9,7 @@ const projects : Project[] = [
         project : "Back end ",
         description : "At Escodeve, I developed the back-end of a project management application focused on improving team collaboration and productivity. The system included core features such as task assignment, team management, and daily work logs. I implemented JWT-based authentication with role-based access control to ensure secure and flexible user access. The application was deployed on Cloudflare Workers to take advantage of high " +
         "scalability, low latency, and optimized global performance.",
-        technologies : ["Node.js (Hono framework)",
-    "TypeScript",
-    "Zod",
-    "Prisma ORM",
-    "OpenAPI (Swagger)"],
+        technologies : ["Node.js (Hono framework)", "TypeScript", "Zod", "Prisma ORM", "OpenAPI (Swagger)"],
     },
     {
       id: 2,
@@ -21,7 +17,7 @@ const projects : Project[] = [
       project: "Full Stack Application",
       description: "Developed a real-time multiplayer Pong game using Django, WebSockets, and Vanilla JavaScript. Managed server-side communication and game session handling with Redis. Created a REST API for game actions and implemented the game interface and logic on the client side.",
       technologies: ["Django", "WebSockets", "REST API", "Redis", "Vanilla JavaScript"],
-      githubUrl: ""
+      githubUrl: "https://github.com/marouaneaddou/Multiplayer-Game"
     },
     {
       id: 3,
@@ -29,7 +25,7 @@ const projects : Project[] = [
       project: "Backend Application",
       description: "Built a custom web server from scratch in C++98, handling GET, POST, and DELETE HTTP requests. Implemented non-blocking multiplexing and CGI for serving dynamic content. Managed error handling and HTTP parsing.",
       technologies: ["C++98", "HTTP", "Non-blocking Multiplexing", "CGI"],
-      githubUrl: ""
+      githubUrl: "https://github.com/marouaneaddou/webserv_42"
     },
     {
       id: 4,
@@ -37,7 +33,7 @@ const projects : Project[] = [
       project: "System Administration",
       description: "Created and managed Docker containers from scratch with Docker Compose orchestration. Configured networking, container communication, persistent storage, and streamlined deployment of a multi-service application.",
       technologies: ["Docker", "Docker Compose", "Networking", "Containerization"],
-      githubUrl: ""
+    //   githubUrl: ""
     },
     {
       id: 5,
@@ -45,7 +41,7 @@ const projects : Project[] = [
       project: "System Programming",
       description: "Developed a shell program in C to mimic basic Bash functionality, including process creation, I/O redirection, piping, and signal handling. Focused on system calls, file descriptors, and robust error management.",
       technologies: ["C", "Unix/Linux", "System Calls", "File Descriptors", "Process Management"],
-      githubUrl: ""
+      githubUrl: "https://github.com/marouaneaddou/Minishell"
     }
   ];
   
