@@ -7,7 +7,7 @@ const projects : Project[] = [
         id : 1,
         name : "Project Management Application",
         project : "Back end ",
-        description : "At Escodeve, I developed the back-end of a project management application focused on improving team collaboration and productivity. The system included core features such as task assignment, team management, and daily work logs. I implemented JWT-based authentication with role-based access control to ensure secure and flexible user access. The application was deployed on Cloudflare Workers to take advantage of high " +
+        description : "At Escodeve, I developed the back-end of a project management application focused on improving team collaboration and productivity. The application included core features such as task assignment, team management, and tracking employees’ daily work. I implemented JWT-based authentication with role-based access control to ensure secure and flexible user access. The application was deployed on Cloudflare Workers to take advantage of high " +
         "scalability, low latency, and optimized global performance.",
         technologies : ["Node.js (Hono framework)", "TypeScript", "Zod", "Prisma ORM", "OpenAPI (Swagger)"],
     },
