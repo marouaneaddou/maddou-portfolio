@@ -131,5 +131,5 @@ export interface Project {
   project  :   string,
   description :   string,
   technologies: string[],
-  githubUrl: string,
+  githubUrl?: string,
 }
