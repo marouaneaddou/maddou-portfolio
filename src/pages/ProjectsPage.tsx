@@ -16,7 +16,7 @@ const projects : Project[] = [
       name: "Multiplayer Pong Game Website",
       project: "Full Stack Application",
       description: "Developed a real-time multiplayer Pong game using Django, WebSockets, and Vanilla JavaScript. Managed server-side communication and game session handling with Redis. Created a REST API for game actions and implemented the game interface and logic on the client side.",
-      technologies: ["Django", "WebSockets", "REST API", "Redis", "Vanilla JavaScript"],
+      technologies: ["Python (Django)", "WebSockets", "REST API", "Redis", "Vanilla JavaScript"],
       githubUrl: "https://github.com/marouaneaddou/Multiplayer-Game"
     },
     {
