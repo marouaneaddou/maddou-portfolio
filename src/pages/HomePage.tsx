@@ -43,7 +43,7 @@ const HomePage = () => {
                     <div className="text-white/80 mt-4  mb-5 " style={{ gridArea: 'Fourth' }}>
                         <div className="mr-5 ml-5 mb-5 text-lg">
                             Dedicated computer science student with a strong foundation in software development and a 
-                            passion for learning. Experienced in working with JavaScript, React, and C++, 
+                            passion for learning. Experienced in working with JavaScript, Python, and C++, 
                             currently focused on building innovative solutions and enhancing problem-solving skills through hands-on projects
                         </div>
                         <span className="border border-white/10 w-full inline-block"></span>
