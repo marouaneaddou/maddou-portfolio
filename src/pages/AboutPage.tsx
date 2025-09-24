@@ -46,7 +46,7 @@ const AboutPage = () => {
                                             <p className="text-white/70">
                                                 Hi! I'm Marouane, a <strong>Full Stack Developer</strong> and <strong>Computer Science student</strong> passionate about software engineering and the world of technology.<br/><br/>
 
-                                                I have a strong interest in <strong>backend development</strong>, where I enjoy understanding how things work under the hood and building robust, efficient systems. I love exploring <strong>C/C++</strong> for system level programming and constantly challenge myself with coding problems to improve my logic and problem-solving abilities.<br/><br/>
+                                                I have a strong interest in <strong>backend development</strong>, where I enjoy understanding how things work under the hood and building robust, efficient systems. I love exploring <strong>C/C++</strong> for system level programming and constantly challenge myself with coding problems to improve my logic and problem solving abilities.<br/><br/>
 
                                                 Learning is my fuel whether it's modern web development or low level architecture, I’m always looking to grow and build meaningful projects.
                                             </p>
